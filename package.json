@@ -2,7 +2,7 @@
   "name": "clever-qs",
   "description": "A querystring parser that supports nesting and arrays, with a depth limit",
   "homepage": "https://github.com/ljharb/qs",
-  "version": "6.4.0",
+  "version": "7.0.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ljharb/qs.git"
@@ -33,7 +33,6 @@
     "tape": "^4.6.3"
   },
   "scripts": {
-    "prepublish": "safe-publish-latest && npm run dist",
     "pretest": "npm run --silent readme && npm run --silent lint",
     "test": "npm run --silent coverage",
     "tests-only": "node test",
